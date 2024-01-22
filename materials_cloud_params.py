@@ -42,10 +42,9 @@ MC_PROPERTY_LIST_FULL = ['abundance',  # float, in percentage
 
 #selected properties (rvv100)
 MC_PROPERTY_LIST_V1 =   ["band_gap",  # float, eV
-                         "binding_energy_per_substructure_per_unit_area_rvv10",  #float (meV/A^2)
-                         "delta_rvv10", #float interlayer distance percentage (100 %)
+                         ["binding_energy_per_substructure_per_unit_area","average_matches"],  #float (meV/A^2), True means to average all values that match
+                         ["delta","average_matches"], #float interlayer distance percentage (100 %), True means to average all values that match
                          "fermi_energy",  #float (eV)
-                         "formula", #string
                          "n_atoms",
                          "n_electrons",
                          "n_species"]
