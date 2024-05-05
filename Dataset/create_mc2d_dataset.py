@@ -1,6 +1,9 @@
 import api
 import materials
 import numpy as np
+
+'''Gets dataset from Materials Cloud Database'''
+
 mc2D_data = api.get_mc2D_data()
 mc2D_materials = api.compounds_dict_to_materials_list(mc2D_data)
 
