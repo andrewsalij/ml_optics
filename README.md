@@ -1,6 +1,8 @@
 # ml_optics
 Machine Learning of Optical Properties 
 
+NOTE: This project is on hiatus for time being (June 23, 2024)
+
 Dependencies:
 numpy (MIT)
 scipy 
